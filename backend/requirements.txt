@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+torch
+transformers
+datasets
+peft
+bitsandbytes
+accelerate
+python-multipart
