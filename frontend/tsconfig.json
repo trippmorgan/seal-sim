@@ -6,7 +6,11 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "strict": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    
+    /* The Fix: This enables compatibility between modern ES Modules and older module systems. */
+    "esModuleInterop": true, 
+    "allowSyntheticDefaultImports": true /* This is implicitly enabled by esModuleInterop, but adding it makes it explicit */
   },
   "include": ["src"]
 }
